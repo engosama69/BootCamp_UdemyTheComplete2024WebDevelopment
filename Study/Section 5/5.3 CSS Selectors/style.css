@@ -1,0 +1,27 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+p {
+  color: red;
+}
+
+.note {
+  font-size: 20px;
+}
+
+#id-selector-demo {
+  color: green;
+}
+
+/* value=4 속성을 가지고 있는 <li> 요소 */
+li[value="4"] {    /* 값을 큰따옴표로 감싼다. */
+  color: blue;
+}
+
+* {
+  text-align: center;
+}
