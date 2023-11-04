@@ -1,0 +1,9 @@
+h1 {
+    background-color: red;
+}
+
+.big_title {
+    font-size: 2rem;
+    color: lightpink;
+    font-family: cursive;
+}
