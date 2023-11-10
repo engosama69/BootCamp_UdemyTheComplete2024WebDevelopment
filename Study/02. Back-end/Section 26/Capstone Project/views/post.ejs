@@ -1,0 +1,23 @@
+<%- include("partials/header.ejs") %>
+
+<h1>Post</h1>
+
+<div class="post_list">
+    <% if (locals.postList && locals.postList.length > 0) { %>
+        <ul class="list-group">
+        <% postList.forEach((post, index) => { %>
+            <li class="list-group-item list-group-item-action">
+                <b class="font-monospace"><%= post.title %></b> <br/> 
+                <span class="text-black-50"><%= post.content %></span> <br/> 
+                <a href="/edit/<%= index %>">Edit</a> | <a href="/delete/<%= index %>">Delete</a>
+            </li>
+        <% }); %>
+        </ul>
+    <% } else { %>
+        <p>Write a new post!</p>
+    <% } %>
+    <br/>
+</div>
+<a class="write-post" href="/write">Write Post</a>
+
+<%- include("partials/footer.ejs") %>
