@@ -1,0 +1,6 @@
+secrets.txt
+.DS_Store
+
+# *.txt : All Text Files
+# directory/ : Specific Directory
+# gitignore Templates : https://github.com/github/gitignore
