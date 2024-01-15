@@ -1,7 +1,7 @@
-# Repository for Udemy The Complete 2023 Web Development Bootcamp
+# Repository for Udemy The Complete 2024 Web Development Bootcamp
 
 > [!NOTE]
-> 2023.10.24 - 2023.12.14
+> 2023.10.24 - 2024.01.15
 
 > [!IMPORTANT]
 > All files in this repository were made for studying from lecture materials and videos. <br/>
