@@ -9,7 +9,7 @@ const db = new pg.Client({
   user: "postgres",
   host: "localhost",
   database: "permalist",
-  password: "2714348",
+  password: "12345",
   port: 5432,
 });
 db.connect();
@@ -37,7 +37,7 @@ app.get("/", async (req, res) => {
   }
 });
 
-// CREATE 
+// CREATE
 app.post("/add", async (req, res) => {
   const item = req.body.newItem;
   // items.push({title: item});
